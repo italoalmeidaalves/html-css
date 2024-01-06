@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'godofwar';
+    src: url('fonts/GODOFWAR.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'roman';
+    src: url('fonts/Roman\ SD.ttf') format('truetype');
+}
+
+:root {
+    --cor0: #E5AD33;
+    --cor1: #C62110;
+    --cor2: #C3483B;
+
+    --font-godofwar: 'godofwar', 'serif';
+    --font-roman: 'roman', 'sans-serif';
+}
+
+body {
+    margin: 0px;
+    background-color: lightyellow;
+    font-family: var(--font-roman);
+    font-weight: bold;
+    text-align: justify;
+}
+
+p {
+    margin: 15px 0px;
+    padding: 0px 10px;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #C62110, #C3483B);
+    height: 100px;
+    color: white;
+    
+}
+
+header > h1 {
+    color: #E5AD33;
+    margin: 0px;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 5px;
+    padding-bottom: 49px;
+    font-family:  'godofwar';
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.541);
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    padding: 10px;
+    font-family: var(--font-godofwar);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor0);
+    padding: 8px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.541);
+}
+
+nav a:hover {
+    background-color: var(--cor0);
+    color: var(--cor1);
+    padding: 12px;
+    transition-duration: 0.5s;
+}
+
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+main h1 {
+    color: var(--cor0);
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.541);
+    margin: 0px;
+    font-size: 2.4em;
+    font-family: 'godofwar';
+    padding: 5px 0px 5px 10px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+picture {
+    background-color: var(--cor1);
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px
+}
+
+div.video {
+    background-color: #C62110;
+    padding: 20px; 
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    color: white;
+    background-image: linear-gradient(to bottom, #C62110, #C3483B);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+

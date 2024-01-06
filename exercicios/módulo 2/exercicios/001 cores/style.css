@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* configurações globais das CSS*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #84714F, #D0CFCF);
+    
+}
+main {
+    background-image: linear-gradient(to right, #84714F, #D0CFCF);
+    /* border-radius: é para adcionar uma borda ao main*/
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #7463469d;
+    width: 750px;
+    padding: 10px;
+    margin: auto;
+}
+h1 { text-align: center;
+    color: #7371FC;
+    text-shadow: 1 1 2 #353479ce;
+
+}
+h2{ color: #462749;
+    text-shadow: #2a182cb2;
+
+}
+p { /* text-align: justify, é para deixar o texto justificado*/
+    text-align: justify;
+}

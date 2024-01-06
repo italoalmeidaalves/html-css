@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #6571add7, #90A1FA);
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    background-color: #353C5C;
+    text-align: center;
+    color: rgb(223, 218, 218);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    font: normal 2em 'Lobster';
+    
+}
+
+main {
+    background-color: #abb9ff;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+section > article > h2 {
+    margin-top: 0px;
+    margin-left: 25px;
+    padding: 3px;
+    font: normal 2em 'Lobster';
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+    
+}
+
+section > article {
+    
+}
+
+section > article > p {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #00000063;
+    padding: 2px;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    text-align: center;
+    text-shadow: #000000;
+    
+}
+
+section {
+    margin: 5px;
+    
+}
+
+section > h2 {
+    font: lighter 2em 'Lobster';
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    margin: 25px;
+}
+
+section > p {
+    margin: 0px;
+}
+
+p {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000b2;
+}
+
+footer {
+    background-color: #12141f;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: lightyellow;
+    padding-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div#bola {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    
+}

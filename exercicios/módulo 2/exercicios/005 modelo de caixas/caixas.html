@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+</head> <style> 
+
+ /*  box-level */
+h1 {
+   background-color: lightgray;
+   width: 300px;
+   height: 200px;
+
+   border-width: 10px;
+   border-style:  groove;
+   border-color: darkgray;
+
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+
+   outline-width: 10px;
+   outline-style: dashed;
+   outline-color: rgba(159, 226, 159, 0.822);
+
+}
+
+h2 {
+    background-color: lightcoral;
+    width: 54px;
+    height: 50px;
+
+    border: 10px groove lightcyan;
+
+    padding: 10px 5px 1px 5px;
+
+    margin: auto;
+
+    outline: 2px groove lightgray;
+}
+
+.shorthand {
+    width: 250px;
+    height: 200px;
+
+    border: 5px solid lightcoral;
+
+    padding: 5px 4px 3px 2px;
+
+    margin: 40px auto 60px auto;
+
+    outline: 20px dashed lightyellow;
+    
+}
+/* inline-level */
+a {
+    width: 200px;
+    border: 10px solid lightblue;
+    padding: 10px 3px 5px 10px;
+}
+
+
+
+
+</style>
+<body>
+    <h1>Exemplo de caixas</h1>
+
+    <h1 class="shorthand">ShortHand Border, padding, margin e outline</h1>
+
+    <p>Parágrafos também são exeplos de box-level mas oc <a href="#">links são exemplos inline-level</a>. Vamos ver como tudo isso funciona </p>
+
+    <h2>Teste</h2>
+    
+</body>
+</html>

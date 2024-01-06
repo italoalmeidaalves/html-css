@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com midias</title>
+</head>
+<body>
+    <h1>video internos</h1>
+    <video src="midias/paisagem(1080p).mp4" width="560" controls></video> <!--Forma padrão de colocar video mas não a recomendada-->
+    <video width="560" controls poster="imagens/Kratos.jpg">
+        <source src="midias/paisagem(1080p).mp4" type="video/mp4">
+        <source src="midias/paisagem(1080p).m4v" type="video/mp4">
+        <source src="midias/paisagem(1080p).webm" type="video/webm">
+        <source src="midias/paisagem(1080p).ogv" type="video/ogg">
+        <p>Seu navegador não consegue reproduzir video mas você pode fazer o <a href="midias/paisagem(1080p).mp4" download="paisagem.mp4" type="application/mp4">download dele aqui</a></p>
+    </video>
+    <h1>Videos externos</h1>
+    <p>Aqui está um video do Super reagindo a mc pipokinha</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e0EIuTc9xd8?si=wI8zammNrPoQsSax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--Bem simples de fazer isso basta ir no youtube escolher o video e depois ir na aba compartilhar e depois copiar o codigo do video e colocar ele aqui-->
+    
+</body>
+</html>
