@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cnome {
+            background-color: lightgray;
+        }
+
+        .csexo {
+            background-color: lightcoral;
+        }
+
+        .cidade {
+            background-color: lightcyan;
+        }
+
+        .cprofissao {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprofissao">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td>Flávia</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Nutricionista</td>
+            </tr>
+            <tr>
+                <td>Gabriela</td>
+                <td>F</td>
+                <td>32</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>27</td>
+                <td>Advogada</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>M</td>
+                <td>56</td>
+                <td>Jornalista</td>
+            </tr>
+    </table>
+</body>
+</html>
