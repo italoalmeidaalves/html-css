@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Formulários
+    </title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form method="post" action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="usu">Usuário: </label>
+            <input type="text" name="usuario" id="usu" required minlength="5" maxlength="15" size="20" placeholder="Nome de Usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="sen">Senha:</label>
+            <input type="password" name="senha" id="sen" required minlength="8" size="10" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <!--
+            REQUIRED = deixar aquele campo obrigatório.
+
+            MINLENGHT e MAXLENGTH = é para definir a quantidade minima e máxima de letras daquele campo.
+
+            SIZE = definir o tamanho da caixa.
+
+            PLACEHOLDER = colocar um texto no campo como dica para ajudar a identificar o que ser colocado ali.
+
+            AUTOCOMPLETE = autocompletar aquele campo.
+        -->
+    </form>
+</body>
+</html>

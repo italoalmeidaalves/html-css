@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form method="post" action="cadastro.php">
+        <p>
+          <label for="name">Nome:</label>
+          <input type="" name="name" id="name" required maxlength="30" placeholder="Nome Completo" autocomplete="name">  
+        </p>
+
+        <p>
+            <label for="num">Média:</label>
+            <input type="number" name="number" id="num" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5">
+        </p>
+
+        <p>
+            <label for="imes">Período Letivo:</label>
+            <input type="month" name="mes" id="imes" required value="2025-05">
+        </p>
+
+        <p>
+            <label for="idate">Dia da Prova:</label>
+            <input type="date" name="date" id="idate" required value="2005-09-23">
+        </p>
+
+        <p>
+            <label for="itime">Horário da Prova</label>
+            <input type="time" name="time" id="itime" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <!--
+            MIN e MAX = é para definir a quantidade minima e máxima de letras daquele campo.
+
+            STEP = definir de quantos em quantos passos o valor será mudado.
+
+            VALUE = Fazer com que o campo já fique com algum valor definido.
+        -->
+    </form>
+</body>
+</html>
