@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="irange"></label>
+            <input type="range" name="range" id="irange" oninput="ival.innerHTML = Number(irange.value)">
+            <output id="ival">0</output>
+        </p>
+    </form>
+
+    <!--
+        Essa é uma forma de se conseguir mostrar o valor dentro de uma range.
+    -->
+</body>
+</html>
